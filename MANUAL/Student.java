@@ -1,6 +1,8 @@
-
-
+// question 22 
 public class Student {
+ 
+
+   
 
     private int student_id;
     private String student_name;
