@@ -3,7 +3,7 @@ public class Bankers {
  public static void main(String args[]){
      int n = 3 , m=3;
      int alloc[][] = { {1,3,2},{2,1,2},{2,4,3}};
-     int max[][] = {{1,2,3} , {2,3,1}, {2,1,3} } ;
+     int max[][] = {{3,3,3} , {4,3,3}, {3,2,5} } ;
      int need[][] = new int[n][m];
      int avail[] = {1,3,2};
      
@@ -46,8 +46,8 @@ public class Bankers {
 
 
 
-       safe[k++] = j;
-       finish[j]= true ;
+       safe[k++] = i;
+       finish[i]= true ;
 
     }
   }
